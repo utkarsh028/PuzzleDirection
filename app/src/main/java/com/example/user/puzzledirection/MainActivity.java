@@ -3,6 +3,7 @@ package com.example.user.puzzledirection;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.res.AssetManager;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -93,10 +94,6 @@ public class MainActivity extends AppCompatActivity {
     public void showQuestion(String que,String op1,String op2,String op3,String op4,int ans,View vv){
         final CharSequence[] values = {op1,op2,op3,op4};
 
-        /*AlertDialog.Builder builder1 = new AlertDialog.Builder(MainActivity.this);
-        builder1.setMessage(que);*/
-
-        //delay
 
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
         builder.setTitle(que);
@@ -387,11 +384,44 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
-    public void abcde(View v){
+    public void abcde(View v) throws InterruptedException {
         int p,q;
         p=(int) (Math.random()*7);
         q=(int)(Math.random()*10);
-        showQuestion(que[p].get(q).question,que[p].get(q).A,que[p].get(q).B,que[p].get(q).C,que[p].get(q).D,que[p].get(q).answer,v);
+        final String qq=que[p].get(q).question;
+        final String a,b,c,d;
+        a=que[p].get(q).A;
+        b=que[p].get(q).B;
+        c=que[p].get(q).C;
+        d=que[p].get(q).D;
+        final int aaa=que[p].get(q).answer;
+        final View w=v;
+        final String u;
+        if(aaa==1){
+            u=a;
+        }else if(aaa==2){
+            u=b;
+        }else if(aaa==3){
+            u=c;
+        }else{
+            u=d;
+        }
+        final AlertDialog.Builder adb=new AlertDialog.Builder(this);
+        adb.setCancelable(true);
+        adb.setTitle("Question");
+        adb.setMessage(qq);
+        adb.show();
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Log.e("Utkarsh", "Question!");
+                adb.setTitle("Answer");
+                adb.setMessage(u);
+                adb.show();
+                showQuestion(qq, a, b, c, d, aaa, w);
+            }
+        }, 3000);
 
     }
     public boolean inRange(int x,int y){
