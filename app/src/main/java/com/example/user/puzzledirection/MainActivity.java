@@ -93,8 +93,8 @@ public class MainActivity extends AppCompatActivity {
     public void showQuestion(String que,String op1,String op2,String op3,String op4,int ans,View vv){
         final CharSequence[] values = {op1,op2,op3,op4};
 
-        AlertDialog.Builder builder1 = new AlertDialog.Builder(MainActivity.this);
-        builder1.setMessage(que);
+        /*AlertDialog.Builder builder1 = new AlertDialog.Builder(MainActivity.this);
+        builder1.setMessage(que);*/
 
         //delay
 
