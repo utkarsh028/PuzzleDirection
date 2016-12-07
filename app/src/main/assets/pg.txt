@@ -1,0 +1,66 @@
+What are the types of linkages?
+A.	Internal and External
+B.	External, Internal and None
+C.	External and None
+D.	Internal
+2
+Which of the following special symbol allowed in a variable name?
+A.	* (asterisk)
+B.	| (pipeline)
+C.	- (hyphen)
+D.	_ (underscore)
+4
+How would you round off a value from 1.66 to 2.0?
+A.	ceil(1.66)
+B.	floor(1.66)
+C.	roundup(1.66)
+D.	roundto(1.66)
+1
+By default a real number is treated as a
+A.	float
+B.	double
+C.	long double
+D.	far double
+2
+When we mention the prototype of a function?
+A.	Defining
+B.	Declaring
+C.	Prototyping
+D.	Calling
+2
+Which of the following type of class allows only one object of it to be created?
+A.	Virtual class
+B.	Abstract class
+C.	Singleton class
+D.	Friend class
+3
+Which of the following is not a type of constructor?
+A.	Copy constructor
+B.	Friend constructor
+C.	Default constructor
+D.	Parameterized constructor
+2
+Which of the following is not the member of class?
+A.	Static function
+B.	Friend function
+C.	Const function
+D.	Virtual function
+2
+Which of the following concepts means determining at runtime what method to invoke?
+A.	Data hiding
+B.	Dynamic Typing
+C.	Dynamic binding
+D.	Dynamic loading
+3
+Which of the following term is used for a function defined inside a class?
+A.	Member Variable
+B.	Member function
+C.	Class function
+D.	Classic function
+2
+How many instances of an abstract class can be created?
+A.	1
+B.	5
+C.	13
+D.	0
+4

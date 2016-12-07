@@ -1,0 +1,66 @@
+Two ships are sailing in the sea on the two sides of a lighthouse. The angle of elevation of the top of the lighthouse is observed from the ships are 30° and 45° respectively. If the lighthouse is 100 m high, the distance between the two ships is:
+A.	173 m
+B.	200 m
+C.	273 m
+D.	300 m
+3
+A man standing at a point P is watching the top of a tower, which makes an angle of elevation of 30º with the man's eye. The man walks some distance towards the tower to watch its top and the angle of the elevation becomes 60º. What is the distance between the base of the tower and the point P?
+A.	43 units
+B.	8 units
+C.	12 units
+D.	Data inadequate
+4
+The cost price of 20 articles is the same as the selling price of x articles. If the profit is 25%, then the value of x is:
+A.	15
+B.	16
+C.	18
+D.	25
+2
+A vendor bought toffees at 6 for a rupee. How many for a rupee must he sell to gain 20%?
+A.	3
+B.	4
+C.	5
+D.	6
+3
+The sum of ages of 5 children born at the intervals of 3 years each is 50 years. What is the age of the youngest child?
+A.	4 years
+B.	8 years
+C.	10 years
+D.	None of these
+1
+A father said to his son, "I was as old as you are at the present at the time of your birth". If the father's age is 38 years now, the son's age five years back was:
+A.	14 years
+B.	19 years
+C.	33 years
+D.	38 years
+1
+The present ages of three persons in proportions 4 : 7 : 9. Eight years ago, the sum of their ages was 56. Find their present ages (in years).
+A.	8, 20, 28
+B.	16, 28, 36
+C.	20, 35, 45
+D.	None of these
+2
+The age of father 10 years ago was thrice the age of his son. Ten years hence, father's age will be twice that of his son. The ratio of their present ages is:
+A.	5 : 2
+B.	7 : 3
+C.	9 : 2
+D.	13 : 4
+2
+From a group of 7 men and 6 women, five persons are to be selected to form a committee so that at least 3 men are there on the committee. In how many ways can it be done?
+A.	564
+B.	645
+C.	735
+D.	756
+4
+Out of 7 consonants and 4 vowels, how many words of 3 consonants and 2 vowels can be formed?
+A.	210
+B.	1050
+C.	25200
+D.	21400
+3
+In how many ways can a group of 5 men and 2 women be made out of a total of 7 men and 3 women?
+A.	63
+B.	90
+C.	126
+D.	45
+1
