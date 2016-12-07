@@ -106,14 +106,14 @@ public class MainActivity extends AppCompatActivity {
                     case 0:
                         // Your code when first option seletced
                         if(i==1){
+                            playerScore += 5;
+                            displayScore(playerScore);
                             st();
                             if(v==disha[0][4]){
                                 finalScore(playerScore);
                                 break;
                             }
                             Toast.makeText(MainActivity.this, "Correct Answer A", Toast.LENGTH_SHORT).show();
-                            playerScore += 5;
-                            displayScore(playerScore);
                             for(int i=0;i<5;i++){
                                 for(int j=0;j<5;j++){
                                     if(v==disha[i][j]){
@@ -159,6 +159,8 @@ public class MainActivity extends AppCompatActivity {
                     case 1:
                         // Your code when 2nd  option seletced
                         if(i==2){
+                            playerScore += 5;
+                            displayScore(playerScore);
                             st();
                             if(v==disha[0][4]){
                                 finalScore(playerScore);
@@ -209,6 +211,8 @@ public class MainActivity extends AppCompatActivity {
                     case 2:
                         // Your code when 3rd option seletced
                         if(i==3){
+                            playerScore += 5;
+                            displayScore(playerScore);
                             st();
                             if(v==disha[0][4]){
                                 finalScore(playerScore);
@@ -258,6 +262,8 @@ public class MainActivity extends AppCompatActivity {
                         }break;
                     case 3:
                         if(i==4){
+                            playerScore += 5;
+                            displayScore(playerScore);
                             st();
                             if(v==disha[0][4]){
                                 finalScore(playerScore);
@@ -411,7 +417,7 @@ public class MainActivity extends AppCompatActivity {
         adb.setTitle("Question");
         adb.setMessage(qq);
         adb.show();
-
+        Toast.makeText(MainActivity.this, "Wait for options to display", Toast.LENGTH_SHORT).show();
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
